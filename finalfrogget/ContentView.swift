@@ -4,7 +4,7 @@
 //
 //  Created by user on 05/12/25.
 //
-import SwiftUIExtras
+//import SwiftUIExtras
 import SwiftUI
 
 struct CardView: View {
