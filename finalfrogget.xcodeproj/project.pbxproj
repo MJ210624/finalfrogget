@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CE6C02932EEC836900229101 /* perfilview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C02922EEC836900229101 /* perfilview.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		CE6C02922EEC836900229101 /* perfilview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perfilview.swift; sourceTree = "<group>"; };
 		CECDECB62EE352F500C353EB /* finalfrogget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalfrogget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -33,6 +38,7 @@
 			isa = PBXGroup;
 			children = (
 				CECDECB82EE352F500C353EB /* finalfrogget */,
+				CE6C02922EEC836900229101 /* perfilview.swift */,
 				CECDECB72EE352F500C353EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6C02932EEC836900229101 /* perfilview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
