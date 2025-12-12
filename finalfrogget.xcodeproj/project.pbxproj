@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-		CECDECC92EE3688000C353EB /* SwiftUIExtras in Frameworks */ = {isa = PBXBuildFile; productRef = CECDECC82EE3688000C353EB /* SwiftUIExtras */; };
-=======
-		227AF90C2EE369AF00F0B5C6 /* SwiftUIExtras in Frameworks */ = {isa = PBXBuildFile; productRef = 227AF90B2EE369AF00F0B5C6 /* SwiftUIExtras */; };
->>>>>>> main
+		CE6C02932EEC836900229101 /* perfilview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C02922EEC836900229101 /* perfilview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE6C02922EEC836900229101 /* perfilview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perfilview.swift; sourceTree = "<group>"; };
 		CECDECB62EE352F500C353EB /* finalfrogget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalfrogget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -31,11 +28,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				CECDECC92EE3688000C353EB /* SwiftUIExtras in Frameworks */,
-=======
-				227AF90C2EE369AF00F0B5C6 /* SwiftUIExtras in Frameworks */,
->>>>>>> main
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +38,7 @@
 			isa = PBXGroup;
 			children = (
 				CECDECB82EE352F500C353EB /* finalfrogget */,
+				CE6C02922EEC836900229101 /* perfilview.swift */,
 				CECDECB72EE352F500C353EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,11 +71,6 @@
 			);
 			name = finalfrogget;
 			packageProductDependencies = (
-<<<<<<< HEAD
-				CECDECC82EE3688000C353EB /* SwiftUIExtras */,
-=======
-				227AF90B2EE369AF00F0B5C6 /* SwiftUIExtras */,
->>>>>>> main
 			);
 			productName = finalfrogget;
 			productReference = CECDECB62EE352F500C353EB /* finalfrogget.app */;
@@ -112,13 +100,6 @@
 			);
 			mainGroup = CECDECAD2EE352F500C353EB;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-<<<<<<< HEAD
-				CECDECC72EE3688000C353EB /* XCRemoteSwiftPackageReference "SwiftUIExtras" */,
-=======
-				227AF90A2EE369AF00F0B5C6 /* XCRemoteSwiftPackageReference "SwiftUIExtras" */,
->>>>>>> main
-			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CECDECB72EE352F500C353EB /* Products */;
 			projectDirPath = "";
@@ -144,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6C02932EEC836900229101 /* perfilview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,35 +329,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-<<<<<<< HEAD
-		CECDECC72EE3688000C353EB /* XCRemoteSwiftPackageReference "SwiftUIExtras" */ = {
-=======
-		227AF90A2EE369AF00F0B5C6 /* XCRemoteSwiftPackageReference "SwiftUIExtras" */ = {
->>>>>>> main
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mateusrodriguesxyz/SwiftUIExtras";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-<<<<<<< HEAD
-		CECDECC82EE3688000C353EB /* SwiftUIExtras */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CECDECC72EE3688000C353EB /* XCRemoteSwiftPackageReference "SwiftUIExtras" */;
-=======
-		227AF90B2EE369AF00F0B5C6 /* SwiftUIExtras */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 227AF90A2EE369AF00F0B5C6 /* XCRemoteSwiftPackageReference "SwiftUIExtras" */;
->>>>>>> main
-			productName = SwiftUIExtras;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CECDECAE2EE352F500C353EB /* Project object */;
 }
