@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE6C02932EEC836900229101 /* perfilview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C02922EEC836900229101 /* perfilview.swift */; };
+		CE3776B82F0E9400002E2A9A /* ListaSelecao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3776B72F0E93F5002E2A9A /* ListaSelecao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE6C02922EEC836900229101 /* perfilview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perfilview.swift; sourceTree = "<group>"; };
+		CE3776B72F0E93F5002E2A9A /* ListaSelecao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaSelecao.swift; sourceTree = "<group>"; };
 		CECDECB62EE352F500C353EB /* finalfrogget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalfrogget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -38,8 +38,8 @@
 			isa = PBXGroup;
 			children = (
 				CECDECB82EE352F500C353EB /* finalfrogget */,
-				CE6C02922EEC836900229101 /* perfilview.swift */,
 				CECDECB72EE352F500C353EB /* Products */,
+				CE3776B72F0E93F5002E2A9A /* ListaSelecao.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6C02932EEC836900229101 /* perfilview.swift in Sources */,
+				CE3776B82F0E9400002E2A9A /* ListaSelecao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
